@@ -1,0 +1,138 @@
+\hypertarget{class_timer}{}\subsection{Timer Class Reference}
+\label{class_timer}\index{Timer@{Timer}}
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_timer_a5f16e8da27d2a5a5242dead46de05d97}{Timer} ()
+\item 
+void \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start} ()  throw (runtime\+\_\+error)
+\item 
+void \hyperlink{class_timer_a63f0eb44b27402196590a03781515dba}{stop} ()  throw (logic\+\_\+error)
+\item 
+double \hyperlink{class_timer_ad306e18f8d8a0296e001683f92d7f86e}{get\+Elapsed\+Time} () const   throw (logic\+\_\+error)
+\end{DoxyCompactItemize}
+\subsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+struct timeval {\bfseries begin\+Time}\hypertarget{class_timer_a2066f4c22ec30af19681442f4f57bc28}{}\label{class_timer_a2066f4c22ec30af19681442f4f57bc28}
+
+\item 
+struct timeval {\bfseries duration}\hypertarget{class_timer_a9bdb26b09da69f87a7af343e9a229c65}{}\label{class_timer_a9bdb26b09da69f87a7af343e9a229c65}
+
+\item 
+bool {\bfseries timer\+Was\+Started}\hypertarget{class_timer_aea3956cc379872b4b0a93a1ece66ce4d}{}\label{class_timer_aea3956cc379872b4b0a93a1ece66ce4d}
+
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\index{Timer@{Timer}!Timer@{Timer}}
+\index{Timer@{Timer}!Timer@{Timer}}
+\paragraph[{\texorpdfstring{Timer()}{Timer()}}]{\setlength{\rightskip}{0pt plus 5cm}Timer\+::\+Timer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_timer_a5f16e8da27d2a5a5242dead46de05d97}{}\label{class_timer_a5f16e8da27d2a5a5242dead46de05d97}
+This function will create a timer class using the constructor. This function is the default constructor of the \hyperlink{class_timer}{Timer} class.
+
+This function will be used specifically to initialize a \hyperlink{class_timer}{Timer} class with all of the private struct values to be set to and the boolean timer\+Was\+Started to false since it was never started.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none.} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The timer class will be intialized to have a begin\+Time and duration struct with the time for both of their tv\+\_\+sec and tv\+\_\+usec members set to 0. The boolean timer\+Was\+Started will be set to false since the time is not started. It is just initialized. 
+\end{DoxyPostcond}
+
+
+\subsubsection{Member Function Documentation}
+\index{Timer@{Timer}!get\+Elapsed\+Time@{get\+Elapsed\+Time}}
+\index{get\+Elapsed\+Time@{get\+Elapsed\+Time}!Timer@{Timer}}
+\paragraph[{\texorpdfstring{get\+Elapsed\+Time() const }{getElapsedTime() const }}]{\setlength{\rightskip}{0pt plus 5cm}double Timer\+::get\+Elapsed\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const throw  logic\+\_\+error) }\hypertarget{class_timer_ad306e18f8d8a0296e001683f92d7f86e}{}\label{class_timer_ad306e18f8d8a0296e001683f92d7f86e}
+This function is the \hyperlink{class_timer_ad306e18f8d8a0296e001683f92d7f86e}{get\+Elapsed\+Time()} function for the \hyperlink{class_timer}{Timer} class.
+
+This function takes members of the duration structure and calculates the elapsed time and returns it as a double. This function will throw a logic error if timer\+Was\+Started is set to true because it is then assumed that the timer is still running at that point.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none.} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns a double that represents the amount of time that has passed since the timer was stopped and started.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+timer\+Was\+Started is set to false. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The function takes the tv\+\_\+sec and tv\+\_\+usec values from the duration structure in the timer class and adds it together and stores it in a local double variable. The function then divides the value of the local variable by 10$^\wedge$6. The function will then return the elapsed\+Time local variable since it stores the value of the time that has passed. 
+\end{DoxyPostcond}
+\index{Timer@{Timer}!start@{start}}
+\index{start@{start}!Timer@{Timer}}
+\paragraph[{\texorpdfstring{start()}{start()}}]{\setlength{\rightskip}{0pt plus 5cm}void Timer\+::start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throw  runtime\+\_\+error) }\hypertarget{class_timer_a3a8b5272198d029779dc9302a54305a8}{}\label{class_timer_a3a8b5272198d029779dc9302a54305a8}
+This function is the \hyperlink{class_timer_a3a8b5272198d029779dc9302a54305a8}{start()} function of the \hyperlink{class_timer}{Timer} class.
+
+This function will be used specifically to initialize the timer start for the timer class. The function throws a runtime\+\_\+error saying the timer was already started since if the timer was already started, there is nothing left to start.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none.} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+timer\+Was\+Started should be set to false. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The timer class will intialize the structure times to start with the use of gettimeofday function given by a given library in the header file. the function will set the timer\+Was\+Started variable to true since the timer will now start recording. 
+\end{DoxyPostcond}
+\index{Timer@{Timer}!stop@{stop}}
+\index{stop@{stop}!Timer@{Timer}}
+\paragraph[{\texorpdfstring{stop()}{stop()}}]{\setlength{\rightskip}{0pt plus 5cm}void Timer\+::stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throw  logic\+\_\+error) }\hypertarget{class_timer_a63f0eb44b27402196590a03781515dba}{}\label{class_timer_a63f0eb44b27402196590a03781515dba}
+This function is the \hyperlink{class_timer_a63f0eb44b27402196590a03781515dba}{stop()} function of the \hyperlink{class_timer}{Timer} class.
+
+This function will be used specifically to stop the time for the timer class. The function will throw a logic error is timer was never started because there would be nothing to stop if timer was never started.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none.} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+timer\+Was\+Started should be set to true. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The timer class will stop the timer within the structure by using gettimeofday function again. It will then take the difference of the tv\+\_\+sec and tv\+\_\+usec variables from the begin\+Time structure of the class and the stop structure that was created within this function. The function will take the difference of tv\+\_\+sec and multiply it by 10$^\wedge$6 and store it to the tv\+\_\+sec member of the duration structure in the timer class. The function also takes the difference of the tv\+\_\+usec and store it to the tv\+\_\+usec member of the duration structure in the timer class. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Timer.\+h\item 
+\hyperlink{_timer_8cpp}{Timer.\+cpp}\item 
+Timer.\+cs\end{DoxyCompactItemize}

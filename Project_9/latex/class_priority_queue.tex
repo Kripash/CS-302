@@ -1,0 +1,105 @@
+\hypertarget{class_priority_queue}{}\subsection{Priority\+Queue$<$ Data\+Type, Key\+Type, Comparator $>$ Class Template Reference}
+\label{class_priority_queue}\index{Priority\+Queue$<$ Data\+Type, Key\+Type, Comparator $>$@{Priority\+Queue$<$ Data\+Type, Key\+Type, Comparator $>$}}
+Inheritance diagram for Priority\+Queue$<$ Data\+Type, Key\+Type, Comparator $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_priority_queue}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_priority_queue_a47de2a46cff1d6a6ed30a99c94dc1b14}{Priority\+Queue} (int max\+Number=def\+Max\+Queue\+Size)
+\item 
+void \hyperlink{class_priority_queue_a61f3339cf0e87c67ed004f8eff0a1bfa}{enqueue} (const Data\+Type \&new\+Data\+Item)
+\item 
+Data\+Type \hyperlink{class_priority_queue_a5bc758e313d6244e672ea6e81d695a46}{dequeue} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Additional Inherited Members}
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\index{Priority\+Queue@{Priority\+Queue}!Priority\+Queue@{Priority\+Queue}}
+\index{Priority\+Queue@{Priority\+Queue}!Priority\+Queue@{Priority\+Queue}}
+\paragraph[{\texorpdfstring{Priority\+Queue(int max\+Number=def\+Max\+Queue\+Size)}{PriorityQueue(int maxNumber=defMaxQueueSize)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Data\+Type , typename Key\+Type , typename Comparator $>$ {\bf Priority\+Queue}$<$ Data\+Type, Key\+Type, Comparator $>$\+::{\bf Priority\+Queue} (
+\begin{DoxyParamCaption}
+\item[{int}]{max\+Number = {\ttfamily defMaxQueueSize}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_priority_queue_a47de2a46cff1d6a6ed30a99c94dc1b14}{}\label{class_priority_queue_a47de2a46cff1d6a6ed30a99c94dc1b14}
+This function is the constructor for the \hyperlink{class_priority_queue}{Priority\+Queue} class.
+
+This function calls the base class implementation of the heap constructor, with the pass parameter max\+Number as the parameter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & max\+Number, which is the largest possible size for the priorityqueue \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The priotity queue is empty and has been dynamically allocated to have the max\+Number equal to the size. 
+\end{DoxyPostcond}
+
+
+\subsubsection{Member Function Documentation}
+\index{Priority\+Queue@{Priority\+Queue}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!Priority\+Queue@{Priority\+Queue}}
+\paragraph[{\texorpdfstring{dequeue()}{dequeue()}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Data\+Type , typename Key\+Type , typename Comparator $>$ Data\+Type {\bf Priority\+Queue}$<$ Data\+Type, Key\+Type, Comparator $>$\+::dequeue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_priority_queue_a5bc758e313d6244e672ea6e81d695a46}{}\label{class_priority_queue_a5bc758e313d6244e672ea6e81d695a46}
+This function is the dequeue function for the \hyperlink{class_priority_queue}{Priority\+Queue} class.
+
+This function calls the base class implementation of the remove function and returns return of the remove function.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns true or false depending on if the item was dequeued.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+This function dequeues the top item of the priorityqueue and returns true or false depending on if the item was dequeued. 
+\end{DoxyPostcond}
+\index{Priority\+Queue@{Priority\+Queue}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!Priority\+Queue@{Priority\+Queue}}
+\paragraph[{\texorpdfstring{enqueue(const Data\+Type \&new\+Data\+Item)}{enqueue(const DataType &newDataItem)}}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Data\+Type , typename Key\+Type , typename Comparator $>$ void {\bf Priority\+Queue}$<$ Data\+Type, Key\+Type, Comparator $>$\+::enqueue (
+\begin{DoxyParamCaption}
+\item[{const Data\+Type \&}]{newdata\+Item}
+\end{DoxyParamCaption}
+)}\hypertarget{class_priority_queue_a61f3339cf0e87c67ed004f8eff0a1bfa}{}\label{class_priority_queue_a61f3339cf0e87c67ed004f8eff0a1bfa}
+This function is the insert function for the \hyperlink{class_priority_queue}{Priority\+Queue} class.
+
+This function calls the base class implementation of the insert function, with the passed parameter newdata\+Item as the parameter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & Data\+Type \&new\+Data\+Item, the data\+Item to be inserted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Inserts a new item into the priority\+Queue. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Priority\+Queue.\+h\item 
+\hyperlink{_priority_queue_8cpp}{Priority\+Queue.\+cpp}\end{DoxyCompactItemize}

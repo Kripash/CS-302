@@ -1,0 +1,18 @@
+10 10
+pzzzzzzzzp
+pyypzzzzzy
+ppppssssyy
+ssspssssyy
+ssssppssyy
+ssssppsspy
+zzzzzzsspy
+zzzzzzsspy
+yyyypzsspy
+yyyypppppy
+3 4
+pppp
+pppp
+pppp
+1 7
+zzzzzzz
+0 0

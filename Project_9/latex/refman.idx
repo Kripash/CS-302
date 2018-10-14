@@ -1,0 +1,47 @@
+\indexentry{Greater$<$ Key\+Type $>$@{Greater$<$ Key\+Type $>$}|hyperpage}{3}
+\indexentry{Heap$<$ Data\+Type, Key\+Type, Comparator $>$@{Heap$<$ Data\+Type, Key\+Type, Comparator $>$}|hyperpage}{3}
+\indexentry{Heap@{Heap}!Heap@{Heap}|hyperpage}{4}
+\indexentry{Heap@{Heap}!Heap@{Heap}|hyperpage}{4}
+\indexentry{Heap@{Heap}!Heap@{Heap}|hyperpage}{4}
+\indexentry{Heap@{Heap}!Heap@{Heap}|hyperpage}{4}
+\indexentry{Heap@{Heap}!````~Heap@{$\sim$\+Heap}|hyperpage}{5}
+\indexentry{````~Heap@{$\sim$\+Heap}!Heap@{Heap}|hyperpage}{5}
+\indexentry{Heap@{Heap}!clear@{clear}|hyperpage}{5}
+\indexentry{clear@{clear}!Heap@{Heap}|hyperpage}{5}
+\indexentry{Heap@{Heap}!insert@{insert}|hyperpage}{6}
+\indexentry{insert@{insert}!Heap@{Heap}|hyperpage}{6}
+\indexentry{Heap@{Heap}!is\+Empty@{is\+Empty}|hyperpage}{6}
+\indexentry{is\+Empty@{is\+Empty}!Heap@{Heap}|hyperpage}{6}
+\indexentry{Heap@{Heap}!is\+Full@{is\+Full}|hyperpage}{7}
+\indexentry{is\+Full@{is\+Full}!Heap@{Heap}|hyperpage}{7}
+\indexentry{Heap@{Heap}!Left\+Child@{Left\+Child}|hyperpage}{7}
+\indexentry{Left\+Child@{Left\+Child}!Heap@{Heap}|hyperpage}{7}
+\indexentry{Heap@{Heap}!operator=@{operator=}|hyperpage}{8}
+\indexentry{operator=@{operator=}!Heap@{Heap}|hyperpage}{8}
+\indexentry{Heap@{Heap}!Parent@{Parent}|hyperpage}{8}
+\indexentry{Parent@{Parent}!Heap@{Heap}|hyperpage}{8}
+\indexentry{Heap@{Heap}!remove@{remove}|hyperpage}{9}
+\indexentry{remove@{remove}!Heap@{Heap}|hyperpage}{9}
+\indexentry{Heap@{Heap}!Right\+Child@{Right\+Child}|hyperpage}{10}
+\indexentry{Right\+Child@{Right\+Child}!Heap@{Heap}|hyperpage}{10}
+\indexentry{Heap@{Heap}!show\+Structure@{show\+Structure}|hyperpage}{10}
+\indexentry{show\+Structure@{show\+Structure}!Heap@{Heap}|hyperpage}{10}
+\indexentry{Heap@{Heap}!show\+Subtree@{show\+Subtree}|hyperpage}{10}
+\indexentry{show\+Subtree@{show\+Subtree}!Heap@{Heap}|hyperpage}{10}
+\indexentry{Heap@{Heap}!swap@{swap}|hyperpage}{11}
+\indexentry{swap@{swap}!Heap@{Heap}|hyperpage}{11}
+\indexentry{Heap@{Heap}!write\+Levels@{write\+Levels}|hyperpage}{11}
+\indexentry{write\+Levels@{write\+Levels}!Heap@{Heap}|hyperpage}{11}
+\indexentry{Less$<$ Key\+Type $>$@{Less$<$ Key\+Type $>$}|hyperpage}{12}
+\indexentry{Priority\+Queue$<$ Data\+Type, Key\+Type, Comparator $>$@{Priority\+Queue$<$ Data\+Type, Key\+Type, Comparator $>$}|hyperpage}{12}
+\indexentry{Priority\+Queue@{Priority\+Queue}!Priority\+Queue@{Priority\+Queue}|hyperpage}{12}
+\indexentry{Priority\+Queue@{Priority\+Queue}!Priority\+Queue@{Priority\+Queue}|hyperpage}{12}
+\indexentry{Priority\+Queue@{Priority\+Queue}!dequeue@{dequeue}|hyperpage}{13}
+\indexentry{dequeue@{dequeue}!Priority\+Queue@{Priority\+Queue}|hyperpage}{13}
+\indexentry{Priority\+Queue@{Priority\+Queue}!enqueue@{enqueue}|hyperpage}{13}
+\indexentry{enqueue@{enqueue}!Priority\+Queue@{Priority\+Queue}|hyperpage}{13}
+\indexentry{Task\+Data@{Task\+Data}|hyperpage}{14}
+\indexentry{Test\+Data@{Test\+Data}|hyperpage}{14}
+\indexentry{Test\+Data\+Item$<$ Key\+Type $>$@{Test\+Data\+Item$<$ Key\+Type $>$}|hyperpage}{15}
+\indexentry{Heap.\+cpp@{Heap.\+cpp}|hyperpage}{15}
+\indexentry{Priority\+Queue.\+cpp@{Priority\+Queue.\+cpp}|hyperpage}{16}

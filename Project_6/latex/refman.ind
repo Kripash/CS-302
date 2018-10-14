@@ -1,0 +1,83 @@
+\begin{theindex}
+
+  \item {$\sim$\+Expr\+Tree}
+    \subitem {Expr\+Tree}, \hyperpage{3}
+
+  \indexspace
+
+  \item {build}
+    \subitem {Expr\+Tree}, \hyperpage{4}
+  \item {build\+Helper}
+    \subitem {Expr\+Tree}, \hyperpage{4}
+
+  \indexspace
+
+  \item {clear}
+    \subitem {Expr\+Tree}, \hyperpage{5}
+  \item {clear\+Helper}
+    \subitem {Expr\+Tree}, \hyperpage{5}
+  \item {commute}
+    \subitem {Expr\+Tree}, \hyperpage{6}
+  \item {commute\+Helper}
+    \subitem {Expr\+Tree}, \hyperpage{6}
+
+  \indexspace
+
+  \item {evaluate}
+    \subitem {Expr\+Tree}, \hyperpage{7}
+  \item {evaluate\+Helper}
+    \subitem {Expr\+Tree}, \hyperpage{7}
+  \item {Expr\+Tree}
+    \subitem {$\sim$\+Expr\+Tree}, \hyperpage{3}
+    \subitem {build}, \hyperpage{4}
+    \subitem {build\+Helper}, \hyperpage{4}
+    \subitem {clear}, \hyperpage{5}
+    \subitem {clear\+Helper}, \hyperpage{5}
+    \subitem {commute}, \hyperpage{6}
+    \subitem {commute\+Helper}, \hyperpage{6}
+    \subitem {evaluate}, \hyperpage{7}
+    \subitem {evaluate\+Helper}, \hyperpage{7}
+    \subitem {Expr\+Tree}, \hyperpage{3}
+    \subitem {expression}, \hyperpage{8}
+    \subitem {expression\+Helper}, \hyperpage{9}
+    \subitem {insert}, \hyperpage{9}
+    \subitem {is\+Equivalent}, \hyperpage{10}
+    \subitem {is\+Equivalent\+Helper}, \hyperpage{10}
+    \subitem {operator=}, \hyperpage{11}
+    \subitem {show\+Helper}, \hyperpage{12}
+    \subitem {show\+Structure}, \hyperpage{12}
+  \item {Expr\+Tree$<$ Data\+Type $>$}, \hyperpage{2}
+  \item {Expr\+Tree$<$ Data\+Type $>$\+::\+Expr\+Tree\+Node}, 
+		\hyperpage{13}
+  \item {Expr\+Tree\+::\+Expr\+Tree\+Node}
+    \subitem {Expr\+Tree\+Node}, \hyperpage{13}
+  \item {Expr\+Tree\+Node}
+    \subitem {Expr\+Tree\+::\+Expr\+Tree\+Node}, \hyperpage{13}
+  \item {expression}
+    \subitem {Expr\+Tree}, \hyperpage{8}
+  \item {expression\+Helper}
+    \subitem {Expr\+Tree}, \hyperpage{9}
+  \item {Expression\+Tree.\+cpp}, \hyperpage{14}
+
+  \indexspace
+
+  \item {insert}
+    \subitem {Expr\+Tree}, \hyperpage{9}
+  \item {is\+Equivalent}
+    \subitem {Expr\+Tree}, \hyperpage{10}
+  \item {is\+Equivalent\+Helper}
+    \subitem {Expr\+Tree}, \hyperpage{10}
+
+  \indexspace
+
+  \item {operator=}
+    \subitem {Expr\+Tree}, \hyperpage{11}
+
+  \indexspace
+
+  \item {show\+Helper}
+    \subitem {Expr\+Tree}, \hyperpage{12}
+  \item {show\+Structure}
+    \subitem {Expr\+Tree}, \hyperpage{12}
+
+\end{theindex}

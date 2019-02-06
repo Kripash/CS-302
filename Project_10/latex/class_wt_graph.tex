@@ -1,0 +1,77 @@
+\hypertarget{class_wt_graph}{}\subsection{Wt\+Graph Class Reference}
+\label{class_wt_graph}\index{Wt\+Graph@{Wt\+Graph}}
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Wt\+Graph} (int max\+Number=def\+Max\+Graph\+Size)  throw ( bad\+\_\+alloc )\hypertarget{class_wt_graph_a24922964bd1ddc86cef3ae0cc42d388d}{}\label{class_wt_graph_a24922964bd1ddc86cef3ae0cc42d388d}
+
+\item 
+void {\bfseries insert\+Vertex} (\hyperlink{class_vertex}{Vertex} new\+Vertex)  throw ( logic\+\_\+error )\hypertarget{class_wt_graph_a4ca3eb343548c81ca24fef7de7536437}{}\label{class_wt_graph_a4ca3eb343548c81ca24fef7de7536437}
+
+\item 
+void {\bfseries insert\+Edge} (char $\ast$v1, char $\ast$v2, int wt)  throw ( logic\+\_\+error )\hypertarget{class_wt_graph_aea0e33832423083bd5d532dc04ca1dff}{}\label{class_wt_graph_aea0e33832423083bd5d532dc04ca1dff}
+
+\item 
+bool {\bfseries retrieve\+Vertex} (char $\ast$v, \hyperlink{class_vertex}{Vertex} \&v\+Data) const \hypertarget{class_wt_graph_aee1b743d73b67a832e30c8603c9f2a0e}{}\label{class_wt_graph_aee1b743d73b67a832e30c8603c9f2a0e}
+
+\item 
+bool {\bfseries edge\+Weight} (char $\ast$v1, char $\ast$v2, int \&wt) const   throw ( logic\+\_\+error )\hypertarget{class_wt_graph_ac20ca5b112adb5403f50caf99e4ee8bd}{}\label{class_wt_graph_ac20ca5b112adb5403f50caf99e4ee8bd}
+
+\item 
+bool {\bfseries get\+Edge\+Weight} (char $\ast$v1, char $\ast$v2, int \&wt) const   throw ( logic\+\_\+error )\hypertarget{class_wt_graph_afa768b2bfd49e68c1970e479cab00036}{}\label{class_wt_graph_afa768b2bfd49e68c1970e479cab00036}
+
+\item 
+void {\bfseries remove\+Vertex} (char $\ast$v)  throw ( logic\+\_\+error )\hypertarget{class_wt_graph_aaabd4ba894d1c4251479837b1d0a0a78}{}\label{class_wt_graph_aaabd4ba894d1c4251479837b1d0a0a78}
+
+\item 
+void {\bfseries remove\+Edge} (char $\ast$v1, char $\ast$v2)  throw ( logic\+\_\+error )\hypertarget{class_wt_graph_a7a1e566285ce7faefd211ba0d9ffa864}{}\label{class_wt_graph_a7a1e566285ce7faefd211ba0d9ffa864}
+
+\item 
+void {\bfseries clear} ()\hypertarget{class_wt_graph_ad73f37d58e6e5132fbf6191b35e54e4e}{}\label{class_wt_graph_ad73f37d58e6e5132fbf6191b35e54e4e}
+
+\item 
+bool {\bfseries is\+Empty} () const \hypertarget{class_wt_graph_ad521755a01e89cfd9e6cb4f3f0b8393b}{}\label{class_wt_graph_ad521755a01e89cfd9e6cb4f3f0b8393b}
+
+\item 
+bool {\bfseries is\+Full} () const \hypertarget{class_wt_graph_a2afac3672a8dd457da6dccc899e0a7f9}{}\label{class_wt_graph_a2afac3672a8dd457da6dccc899e0a7f9}
+
+\item 
+bool {\bfseries has\+Proper\+Coloring} () const \hypertarget{class_wt_graph_aad6215139213038e86eb7da9a3d6d2e6}{}\label{class_wt_graph_aad6215139213038e86eb7da9a3d6d2e6}
+
+\item 
+void {\bfseries show\+Structure} () const \hypertarget{class_wt_graph_aff09483a06de871dab7be3b5fb6a9f51}{}\label{class_wt_graph_aff09483a06de871dab7be3b5fb6a9f51}
+
+\end{DoxyCompactItemize}
+\subsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries index} (char $\ast$v) const \hypertarget{class_wt_graph_a89dc6b3fdf5bd826cf82c1e0b6342fa4}{}\label{class_wt_graph_a89dc6b3fdf5bd826cf82c1e0b6342fa4}
+
+\item 
+int {\bfseries get\+Edge} (int row, int col) const \hypertarget{class_wt_graph_ace3f881c28ca9f26ef6e30da4bb40ef7}{}\label{class_wt_graph_ace3f881c28ca9f26ef6e30da4bb40ef7}
+
+\item 
+void {\bfseries set\+Edge} (int row, int col, int wt)\hypertarget{class_wt_graph_afe8dc83bbd09697988cad1c61439da80}{}\label{class_wt_graph_afe8dc83bbd09697988cad1c61439da80}
+
+\end{DoxyCompactItemize}
+\subsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries max\+Size}\hypertarget{class_wt_graph_af9aaa9d6a0263b17803d8da652137ebf}{}\label{class_wt_graph_af9aaa9d6a0263b17803d8da652137ebf}
+
+\item 
+int {\bfseries size}\hypertarget{class_wt_graph_a295d3a82399a2b7d02b90779266b0ac5}{}\label{class_wt_graph_a295d3a82399a2b7d02b90779266b0ac5}
+
+\item 
+\hyperlink{class_vertex}{Vertex} $\ast$ {\bfseries vertex\+List}\hypertarget{class_wt_graph_a6e99e08584fb7495542310d854d194fb}{}\label{class_wt_graph_a6e99e08584fb7495542310d854d194fb}
+
+\item 
+int $\ast$ {\bfseries adj\+Matrix}\hypertarget{class_wt_graph_a1fa6d8f87dc5c82a02e94c58a8291c09}{}\label{class_wt_graph_a1fa6d8f87dc5c82a02e94c58a8291c09}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Weighted\+Graph3.\+h\item 
+Weighted\+Graph.\+cs\end{DoxyCompactItemize}

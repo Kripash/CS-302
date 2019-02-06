@@ -1,0 +1,749 @@
+\hypertarget{class_weighted_graph}{}\subsection{Weighted\+Graph Class Reference}
+\label{class_weighted_graph}\index{Weighted\+Graph@{Weighted\+Graph}}
+\subsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_weighted_graph_1_1_vertex}{Vertex}
+\end{DoxyCompactItemize}
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_weighted_graph_acf8f5b4f212bc8daf4b12f0b88899180}{Weighted\+Graph} (int max\+Number=def\+Max\+Graph\+Size)
+\item 
+\hyperlink{class_weighted_graph_a294fd717db213e761dc0eb65bbfcb7ab}{Weighted\+Graph} (const \hyperlink{class_weighted_graph}{Weighted\+Graph} \&other)
+\item 
+\hyperlink{class_weighted_graph}{Weighted\+Graph} \& \hyperlink{class_weighted_graph_aa5982a507e944af28e4749cdc06543c6}{operator=} (const \hyperlink{class_weighted_graph}{Weighted\+Graph} \&other)
+\item 
+\hyperlink{class_weighted_graph_ad7b4a5c8206772f9f4fb5906c0d64923}{$\sim$\+Weighted\+Graph} ()
+\item 
+void \hyperlink{class_weighted_graph_aec4ef3455e3cc0d73a42e042adb7ac40}{insert\+Vertex} (const \hyperlink{class_weighted_graph_1_1_vertex}{Vertex} \&new\+Vertex)  throw ( logic\+\_\+error )
+\item 
+void \hyperlink{class_weighted_graph_a6f59ad223d921324c3ec629d0d6e4eea}{insert\+Edge} (const string \&v1, const string \&v2, int wt)  throw ( logic\+\_\+error )
+\item 
+bool \hyperlink{class_weighted_graph_a3afabc2236c99dac950f5161f715f114}{retrieve\+Vertex} (const string \&v, \hyperlink{class_weighted_graph_1_1_vertex}{Vertex} \&v\+Data) const 
+\item 
+bool \hyperlink{class_weighted_graph_ab136044e7378313087be69eb43e7f042}{get\+Edge\+Weight} (const string \&v1, const string \&v2, int \&wt) const   throw ( logic\+\_\+error )
+\item 
+void \hyperlink{class_weighted_graph_abaaa572a9b1a60ec3cd99d8db9d9590e}{remove\+Vertex} (const string \&v)  throw ( logic\+\_\+error )
+\item 
+void \hyperlink{class_weighted_graph_a1db455249fa7fedf70aa5683487a17df}{remove\+Edge} (const string \&v1, const string \&v2)  throw ( logic\+\_\+error )
+\item 
+void \hyperlink{class_weighted_graph_a26890ebf74d23821a6e4dbcf803b5002}{clear} ()
+\item 
+bool \hyperlink{class_weighted_graph_a1c03a0f68447cf88fed97c2076501702}{is\+Empty} () const 
+\item 
+bool \hyperlink{class_weighted_graph_a22e56836e3967031a657cfa9ea5b9843}{is\+Full} () const 
+\item 
+void \hyperlink{class_weighted_graph_ad7f20a989073ea5401d504d944182347}{show\+Structure} () const 
+\item 
+void \hyperlink{class_weighted_graph_a8e6ea9adc87345052786eec67a5f9164}{show\+Shortest\+Paths} ()
+\item 
+bool \hyperlink{class_weighted_graph_a60be8bab10a9142846093cb768855efd}{has\+Proper\+Coloring} () const 
+\item 
+bool \hyperlink{class_weighted_graph_a03884e32b9e093b10e3a44add7eaa928}{are\+All\+Even} () const 
+\item 
+{\bfseries Weighted\+Graph} (int max\+Number=def\+Max\+Graph\+Size)\hypertarget{class_weighted_graph_acf8f5b4f212bc8daf4b12f0b88899180}{}\label{class_weighted_graph_acf8f5b4f212bc8daf4b12f0b88899180}
+
+\item 
+{\bfseries Weighted\+Graph} (const \hyperlink{class_weighted_graph}{Weighted\+Graph} \&other)\hypertarget{class_weighted_graph_a294fd717db213e761dc0eb65bbfcb7ab}{}\label{class_weighted_graph_a294fd717db213e761dc0eb65bbfcb7ab}
+
+\item 
+\hyperlink{class_weighted_graph}{Weighted\+Graph} \& {\bfseries operator=} (const \hyperlink{class_weighted_graph}{Weighted\+Graph} \&other)\hypertarget{class_weighted_graph_a32c3057c0f746f427068be4a9b408845}{}\label{class_weighted_graph_a32c3057c0f746f427068be4a9b408845}
+
+\item 
+void {\bfseries insert\+Vertex} (\hyperlink{class_weighted_graph_1_1_vertex}{Vertex} new\+Vertex)  throw ( logic\+\_\+error )\hypertarget{class_weighted_graph_a164845f6fecf25a25f5f14f69d42d975}{}\label{class_weighted_graph_a164845f6fecf25a25f5f14f69d42d975}
+
+\item 
+void {\bfseries insert\+Edge} (char $\ast$v1, char $\ast$v2, int wt)  throw ( logic\+\_\+error )\hypertarget{class_weighted_graph_ad5e4bb96c2b3b5ace4be251bb3b47621}{}\label{class_weighted_graph_ad5e4bb96c2b3b5ace4be251bb3b47621}
+
+\item 
+bool {\bfseries retrieve\+Vertex} (char $\ast$v, \hyperlink{class_weighted_graph_1_1_vertex}{Vertex} \&v\+Data) const \hypertarget{class_weighted_graph_add447f0f2354c8c776045bf3bec865d8}{}\label{class_weighted_graph_add447f0f2354c8c776045bf3bec865d8}
+
+\item 
+int {\bfseries edge\+Weight} (char $\ast$v1, char $\ast$v2, int \&wt) const   throw ( logic\+\_\+error )\hypertarget{class_weighted_graph_a80b2b095e7a05df4841383d2067e4345}{}\label{class_weighted_graph_a80b2b095e7a05df4841383d2067e4345}
+
+\item 
+bool {\bfseries get\+Edge\+Weight} (char $\ast$v1, char $\ast$v2, int \&wt) const   throw ( logic\+\_\+error )\hypertarget{class_weighted_graph_a0ff5197e169472040ab88b81049340d9}{}\label{class_weighted_graph_a0ff5197e169472040ab88b81049340d9}
+
+\item 
+void {\bfseries remove\+Vertex} (char $\ast$v)  throw ( logic\+\_\+error )\hypertarget{class_weighted_graph_a0eb59d893befdedcda67add1466b9fdd}{}\label{class_weighted_graph_a0eb59d893befdedcda67add1466b9fdd}
+
+\item 
+void {\bfseries remove\+Edge} (char $\ast$v1, char $\ast$v2)  throw ( logic\+\_\+error )\hypertarget{class_weighted_graph_ad06596ac31405f02f39e482860ebe3a8}{}\label{class_weighted_graph_ad06596ac31405f02f39e482860ebe3a8}
+
+\item 
+void {\bfseries clear} ()\hypertarget{class_weighted_graph_a26890ebf74d23821a6e4dbcf803b5002}{}\label{class_weighted_graph_a26890ebf74d23821a6e4dbcf803b5002}
+
+\item 
+void {\bfseries compute\+Paths} ()\hypertarget{class_weighted_graph_aeaea1bd5b1e14b69f2155613bfd25d68}{}\label{class_weighted_graph_aeaea1bd5b1e14b69f2155613bfd25d68}
+
+\item 
+bool {\bfseries is\+Empty} () const \hypertarget{class_weighted_graph_a1c03a0f68447cf88fed97c2076501702}{}\label{class_weighted_graph_a1c03a0f68447cf88fed97c2076501702}
+
+\item 
+bool {\bfseries is\+Full} () const \hypertarget{class_weighted_graph_a22e56836e3967031a657cfa9ea5b9843}{}\label{class_weighted_graph_a22e56836e3967031a657cfa9ea5b9843}
+
+\item 
+void {\bfseries show\+Structure} () const \hypertarget{class_weighted_graph_ad7f20a989073ea5401d504d944182347}{}\label{class_weighted_graph_ad7f20a989073ea5401d504d944182347}
+
+\end{DoxyCompactItemize}
+\subsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int {\bfseries def\+Max\+Graph\+Size} = 10\hypertarget{class_weighted_graph_a126ff6aa1d4ab79c67491e1847fd1126}{}\label{class_weighted_graph_a126ff6aa1d4ab79c67491e1847fd1126}
+
+\item 
+static const int {\bfseries vertex\+Label\+Length} = 11\hypertarget{class_weighted_graph_a1c888219c6dd8aff12519f368a415d5a}{}\label{class_weighted_graph_a1c888219c6dd8aff12519f368a415d5a}
+
+\item 
+static const int {\bfseries I\+N\+F\+I\+N\+I\+T\+E\+\_\+\+E\+D\+G\+E\+\_\+\+WT} = I\+N\+T\+\_\+\+M\+AX\hypertarget{class_weighted_graph_a5d4e3055fcccb2f50667bcd588dd8af7}{}\label{class_weighted_graph_a5d4e3055fcccb2f50667bcd588dd8af7}
+
+\item 
+static const int {\bfseries D\+E\+F\+\_\+\+M\+A\+X\+\_\+\+G\+R\+A\+P\+H\+\_\+\+S\+I\+ZE} = 10\hypertarget{class_weighted_graph_ab8b56b138f61133fe3833f96c318568e}{}\label{class_weighted_graph_ab8b56b138f61133fe3833f96c318568e}
+
+\item 
+static const int {\bfseries V\+E\+R\+T\+E\+X\+\_\+\+L\+A\+B\+E\+L\+\_\+\+L\+E\+N\+G\+TH} = 11\hypertarget{class_weighted_graph_a19411776f4ee4e2a68bf2bc5e03aa10b}{}\label{class_weighted_graph_a19411776f4ee4e2a68bf2bc5e03aa10b}
+
+\end{DoxyCompactItemize}
+\subsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_weighted_graph_a0c6d1c040128d1818ab3b38ff72723a4}{get\+Index} (const string \&v) const 
+\item 
+int \hyperlink{class_weighted_graph_aeda0f97771058c4ca642432cef88f52e}{get\+Edge} (int row, int col) const 
+\item 
+int \hyperlink{class_weighted_graph_a878188104e22c8ec0960d723ef4f58d9}{get\+Path} (int row, int col) const 
+\item 
+void \hyperlink{class_weighted_graph_aca51b1a746202621345709290a0ddd98}{set\+Edge} (int row, int col, int wt)
+\item 
+void \hyperlink{class_weighted_graph_a7872c78e6db2c55fc064b121303bb9d4}{set\+Path} (int row, int col, int wt)
+\item 
+int {\bfseries get\+Index} (char $\ast$v) const \hypertarget{class_weighted_graph_ababe06235c182b7e5278fcf4a627e143}{}\label{class_weighted_graph_ababe06235c182b7e5278fcf4a627e143}
+
+\item 
+int {\bfseries get\+Edge} (int row, int col) const \hypertarget{class_weighted_graph_aeda0f97771058c4ca642432cef88f52e}{}\label{class_weighted_graph_aeda0f97771058c4ca642432cef88f52e}
+
+\item 
+int {\bfseries get\+Path} (int row, int col) const \hypertarget{class_weighted_graph_a878188104e22c8ec0960d723ef4f58d9}{}\label{class_weighted_graph_a878188104e22c8ec0960d723ef4f58d9}
+
+\item 
+void {\bfseries set\+Edge} (int row, int col, int wt)\hypertarget{class_weighted_graph_aca51b1a746202621345709290a0ddd98}{}\label{class_weighted_graph_aca51b1a746202621345709290a0ddd98}
+
+\item 
+void {\bfseries set\+Path} (int row, int col, int wt)\hypertarget{class_weighted_graph_a7872c78e6db2c55fc064b121303bb9d4}{}\label{class_weighted_graph_a7872c78e6db2c55fc064b121303bb9d4}
+
+\end{DoxyCompactItemize}
+\subsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries max\+Size}\hypertarget{class_weighted_graph_ae8cd4e7b91702a470e59472979e94cb5}{}\label{class_weighted_graph_ae8cd4e7b91702a470e59472979e94cb5}
+
+\item 
+int {\bfseries size}\hypertarget{class_weighted_graph_a4452835ad9619580ff968a4d6a9cfe44}{}\label{class_weighted_graph_a4452835ad9619580ff968a4d6a9cfe44}
+
+\item 
+\hyperlink{class_weighted_graph_1_1_vertex}{Vertex} $\ast$ {\bfseries vertex\+List}\hypertarget{class_weighted_graph_a2ad6c13bc100655ac45c6d97619bfb49}{}\label{class_weighted_graph_a2ad6c13bc100655ac45c6d97619bfb49}
+
+\item 
+int $\ast$ {\bfseries adj\+Matrix}\hypertarget{class_weighted_graph_a7d7bdb83dbcfe0b7518db650e293b94f}{}\label{class_weighted_graph_a7d7bdb83dbcfe0b7518db650e293b94f}
+
+\item 
+int $\ast$ {\bfseries path\+Matrix}\hypertarget{class_weighted_graph_a2bdcff3d3f13972f28e38a14957fcc34}{}\label{class_weighted_graph_a2bdcff3d3f13972f28e38a14957fcc34}
+
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\index{Weighted\+Graph@{Weighted\+Graph}!Weighted\+Graph@{Weighted\+Graph}}
+\index{Weighted\+Graph@{Weighted\+Graph}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{Weighted\+Graph(int max\+Number=def\+Max\+Graph\+Size)}{WeightedGraph(int maxNumber=defMaxGraphSize)}}]{\setlength{\rightskip}{0pt plus 5cm}Weighted\+Graph\+::\+Weighted\+Graph (
+\begin{DoxyParamCaption}
+\item[{int}]{max\+Number = {\ttfamily defMaxGraphSize}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_weighted_graph_acf8f5b4f212bc8daf4b12f0b88899180}{}\label{class_weighted_graph_acf8f5b4f212bc8daf4b12f0b88899180}
+This function is the param constructor for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function will set the max\+Size equal to the parameter max\+Number passed in. The function will set the size to 0 since we are not putting in any data yet. The function will dynamically allocate memory for the vertex\+List to be equal to the max\+Size. The function will dynamically allocate memory for the adj\+Matrix and path\+Matrix equal to the max\+Size $\ast$ max\+Size. The function will then loop through the max\+Size of the array, acting like a 2D array and turning it into a 1D array for the adjacency matrix, and then set everything to Infinite weight.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & max\+Number, which is the largest possible size for the \hyperlink{class_weighted_graph}{Weighted\+Graph}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{class_weighted_graph}{Weighted\+Graph} is empty and was just created. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!Weighted\+Graph@{Weighted\+Graph}}
+\index{Weighted\+Graph@{Weighted\+Graph}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{Weighted\+Graph(const Weighted\+Graph \&other)}{WeightedGraph(const WeightedGraph &other)}}]{\setlength{\rightskip}{0pt plus 5cm}Weighted\+Graph\+::\+Weighted\+Graph (
+\begin{DoxyParamCaption}
+\item[{const {\bf Weighted\+Graph} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_weighted_graph_a294fd717db213e761dc0eb65bbfcb7ab}{}\label{class_weighted_graph_a294fd717db213e761dc0eb65bbfcb7ab}
+This function is the copy constructor for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function will set the max\+Size equal to the other \hyperlink{class_weighted_graph}{Weighted\+Graph}\textquotesingle{}s max\+Size. The function will set the size equal to the other \hyperlink{class_weighted_graph}{Weighted\+Graph}\textquotesingle{}s size. The function will dynamically allocate memory for the vertex\+List to be equal to the max\+Size. The function will dynamically allocate memory for the adj\+Matrix and path\+Matrix equal to the max\+Size $\ast$ max\+Size. The function will then loop through the max\+Size of the array, acting like a 2D array and turning it into a 1D array for the adjacency matrix, and then set copy the data from the other arrays to this array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \hyperlink{class_weighted_graph}{Weighted\+Graph} \& otherm which is the other object to be copied to make this object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{class_weighted_graph}{Weighted\+Graph} is an exact copy of the other object that was passed in. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!````~Weighted\+Graph@{$\sim$\+Weighted\+Graph}}
+\index{````~Weighted\+Graph@{$\sim$\+Weighted\+Graph}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{$\sim$\+Weighted\+Graph()}{~WeightedGraph()}}]{\setlength{\rightskip}{0pt plus 5cm}Weighted\+Graph\+::$\sim$\+Weighted\+Graph (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_weighted_graph_ad7b4a5c8206772f9f4fb5906c0d64923}{}\label{class_weighted_graph_ad7b4a5c8206772f9f4fb5906c0d64923}
+This function is the destructor for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+This function will call the clear function to clear to set the size to 0. This function will call the delete operator on path\+Matrix, adj\+Matrix and vertex\+List. This function will set path\+Matrix, adj\+Matrix and vertex\+List to N\+U\+LL.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Size will be set to 0 and path\+Matrix, adj\+Matrix and vertex\+List will be cleared and deleted and set to N\+U\+LL. 
+\end{DoxyPostcond}
+
+
+\subsubsection{Member Function Documentation}
+\index{Weighted\+Graph@{Weighted\+Graph}!are\+All\+Even@{are\+All\+Even}}
+\index{are\+All\+Even@{are\+All\+Even}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{are\+All\+Even() const }{areAllEven() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Weighted\+Graph\+::are\+All\+Even (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_weighted_graph_a03884e32b9e093b10e3a44add7eaa928}{}\label{class_weighted_graph_a03884e32b9e093b10e3a44add7eaa928}
+This function is the are\+All\+Even function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+The function checks to see if every vertex in a graph is of even degree, meaning that the amount of vertices the vertex is connected to is an even number. The function does this by looping through an checks to see if there exists an edge between a vertix and another. If it does, it increments edges by one. After one vertex is done, it checks to see if the the number of edges of that vertex is not divisible by 2, if it isn\textquotesingle{}t the function sets to\+\_\+return to false. Otherwise, the function resets Edges to 0 and increments i and moves to the next vertex. The function returns to\+\_\+return at the end.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If all of the vertices on the graph is even, the function returns true, else it returns false.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If all of the vertices on the graph is even, the function returns true, else it returns false. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!clear@{clear}}
+\index{clear@{clear}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{clear()}{clear()}}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_weighted_graph_a26890ebf74d23821a6e4dbcf803b5002}{}\label{class_weighted_graph_a26890ebf74d23821a6e4dbcf803b5002}
+This function is the clear function for the Wighted\+Graph class.
+
+This function sets the size of the \hyperlink{class_weighted_graph}{Weighted\+Graph} to be 0.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+This function will clear the \hyperlink{class_weighted_graph}{Weighted\+Graph} by setting size is 0. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!get\+Edge@{get\+Edge}}
+\index{get\+Edge@{get\+Edge}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{get\+Edge(int row, int col) const }{getEdge(int row, int col) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Weighted\+Graph\+::get\+Edge (
+\begin{DoxyParamCaption}
+\item[{int}]{row, }
+\item[{int}]{col}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_weighted_graph_aeda0f97771058c4ca642432cef88f52e}{}\label{class_weighted_graph_aeda0f97771058c4ca642432cef88f52e}
+This function is the get\+Edge for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+The function makes sure that row and size are within the max\+Size of the array. it it is, the function returns the edge associated with the row and col of the adjacency matrix.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & row, which is the row of the edge to look for \\
+\hline
+{\em int} & col, which is the col of the edge to look for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the edge of the given row and col from the adjacency matrix, if it is within bounds. Otherwise it returns -\/10.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+returns the edge of the given row and col from the adjacency matrix, if it is within bounds. Otherwise it returns -\/10. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!get\+Edge\+Weight@{get\+Edge\+Weight}}
+\index{get\+Edge\+Weight@{get\+Edge\+Weight}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{get\+Edge\+Weight(const string \&v1, const string \&v2, int \&wt) const }{getEdgeWeight(const string &v1, const string &v2, int &wt) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Weighted\+Graph\+::get\+Edge\+Weight (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{v1, }
+\item[{const string \&}]{v2, }
+\item[{int \&}]{wt}
+\end{DoxyParamCaption}
+) const throw  logic\+\_\+error) }\hypertarget{class_weighted_graph_ab136044e7378313087be69eb43e7f042}{}\label{class_weighted_graph_ab136044e7378313087be69eb43e7f042}
+This function is the get\+Edge\+Weight function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function first checks creates local variables to hold the 2 indexs to insert the edge for and sets them to -\/10 (invalid number) and a bool variable to return. The function then gets the 2 indexes by calling get\+Index with string v1 and string v2 passed as parameters. If both of the indexes are not between 0 and (size $\ast$ size) the function throws a logic error saying vertex not found or bound error. Other wise, the function throws a logic error saying the vertex was not found or bound error. The function checks to see that the edge weight is not infinite, to make sure that an edge exists. If an edge exists, the weight of to the edge is set to wt and to\+\_\+return is set to true.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & string\& v1, which is the string to look for one of the vertex. \\
+\hline
+{\em const} & string\& v2, which is the string to look for the second first. \\
+\hline
+{\em int} & wt, which is the variable to hold the weight from the edge between the two vertices. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns return to\+\_\+return based on if the vertices if found and the edge weight exists.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Valid vertices containing v1 and v2. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The function will return to\+\_\+return based on if the vertices is found and the edge weight exists, and then set wt equal to the weight of the ede. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!get\+Index@{get\+Index}}
+\index{get\+Index@{get\+Index}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{get\+Index(const string \&v) const }{getIndex(const string &v) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Weighted\+Graph\+::get\+Index (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{v}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_weighted_graph_a0c6d1c040128d1818ab3b38ff72723a4}{}\label{class_weighted_graph_a0c6d1c040128d1818ab3b38ff72723a4}
+This function is the get\+Indexfunction for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+The function goes through the size of the vertex\+List and checks to see if a vertex\textquotesingle{}s label is equal to the string v. If it does, the function returns the index of the \hyperlink{class_weighted_graph_1_1_vertex}{Vertex}. If it doesn\textquotesingle{}t the function returns -\/10, to show that the function could not find the vertex.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & string\& v which is the string label to look for in a vertex. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the index of the vertex if it is found, or it returns -\/10 if the vertex is not found.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+returns the index of the vertex if it is found, or it returns -\/10 if the vertex is not found. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!get\+Path@{get\+Path}}
+\index{get\+Path@{get\+Path}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{get\+Path(int row, int col) const }{getPath(int row, int col) const }}]{\setlength{\rightskip}{0pt plus 5cm}int Weighted\+Graph\+::get\+Path (
+\begin{DoxyParamCaption}
+\item[{int}]{row, }
+\item[{int}]{col}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_weighted_graph_a878188104e22c8ec0960d723ef4f58d9}{}\label{class_weighted_graph_a878188104e22c8ec0960d723ef4f58d9}
+This function is the get\+Path for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+The function makes sure that row and size are within the max\+Size of the array. it it is, the function returns the edge associated with the row and col of the path\+Matrix.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & row, which is the row of the path to look for \\
+\hline
+{\em int} & col, which is the col of the path to look for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the path of the given row and col from the path matrix, if it is within bounds. Otherwise it returns -\/10.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+returns the path of the given row and col from the path matrix, if it is within bounds. Otherwise it returns -\/10. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!has\+Proper\+Coloring@{has\+Proper\+Coloring}}
+\index{has\+Proper\+Coloring@{has\+Proper\+Coloring}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{has\+Proper\+Coloring() const }{hasProperColoring() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Weighted\+Graph\+::has\+Proper\+Coloring (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_weighted_graph_a60be8bab10a9142846093cb768855efd}{}\label{class_weighted_graph_a60be8bab10a9142846093cb768855efd}
+This function is the has\+Proper\+Coloring function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+The function checks to see if the vertice\textquotesingle{}s colors in the graph are different from adjacent vertices. The function does this by checking the vertex next to it by making sure that the vertex in front of it and connected via an edge are not equal in color.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+If the vertice\textquotesingle{}s colors in the graph are different from adjacenct vertices, it returns, else it returns false.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+All verties have been assigned a color 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+If the vertice\textquotesingle{}s colors in the graph are different from adjacenct vertices, it returns, else it returns false. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!insert\+Edge@{insert\+Edge}}
+\index{insert\+Edge@{insert\+Edge}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{insert\+Edge(const string \&v1, const string \&v2, int wt)}{insertEdge(const string &v1, const string &v2, int wt)}}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::insert\+Edge (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{v1, }
+\item[{const string \&}]{v2, }
+\item[{int}]{wt}
+\end{DoxyParamCaption}
+) throw  logic\+\_\+error) }\hypertarget{class_weighted_graph_a6f59ad223d921324c3ec629d0d6e4eea}{}\label{class_weighted_graph_a6f59ad223d921324c3ec629d0d6e4eea}
+This function is the insert\+Edge function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function first checks creates local variables to hold the 2 indexs to insert the edge for and sets them to -\/10 (invalid number) The function then gets the 2 indexes by calling get\+Index with string v1 and string v2 passed as parameters. If both of the indexes are between 0 and (size $\ast$ size) the function sets the edge by calling set\+Edge with V1\+\_\+\+Index, V2\+\_\+\+Index and the weight passed as the parameters. Other wise, the function throws a logic error saying the vertex was not found or bound error.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & string\& v1, which is the string to look for one of the vertex. \\
+\hline
+{\em const} & string\& v2, which is the string to look for the second first. \\
+\hline
+{\em int} & wt, which is the weight to insert for the edge. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Valid vertices containing v1 and v2. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The function will insert the edge with the given weight for the the two vertices. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!insert\+Vertex@{insert\+Vertex}}
+\index{insert\+Vertex@{insert\+Vertex}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{insert\+Vertex(const Vertex \&new\+Vertex)}{insertVertex(const Vertex &newVertex)}}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::insert\+Vertex (
+\begin{DoxyParamCaption}
+\item[{const {\bf Vertex} \&}]{new\+Vertex}
+\end{DoxyParamCaption}
+) throw  logic\+\_\+error) }\hypertarget{class_weighted_graph_aec4ef3455e3cc0d73a42e042adb7ac40}{}\label{class_weighted_graph_aec4ef3455e3cc0d73a42e042adb7ac40}
+This function is the insert\+Vertex function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function first checks to see if the vertex already exists in the graph. If it does, the function will set is equal to the new \hyperlink{class_weighted_graph_1_1_vertex}{Vertex} and sets the edges with infinite weight and updates them. Otherwise, if the object is full, the function will throw a logic\+\_\+error saying Graph Full. If not, the function will increment size and insert the new\+Vertex and set the edges with infinite weight.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \hyperlink{class_weighted_graph_1_1_vertex}{Vertex}\& new\+Vertex, which is the new\+Vertex that will be either inserted or updated. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+new\+Vertex will be either be inserted into the graph, or the graph will be updated. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!is\+Empty@{is\+Empty}}
+\index{is\+Empty@{is\+Empty}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{is\+Empty() const }{isEmpty() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Weighted\+Graph\+::is\+Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_weighted_graph_a1c03a0f68447cf88fed97c2076501702}{}\label{class_weighted_graph_a1c03a0f68447cf88fed97c2076501702}
+This function is the is\+Empty function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+This function checks to see if size is equal to 0. If it is, the function returns true. Otherwise the function returns false.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns if the \hyperlink{class_weighted_graph}{Weighted\+Graph} is empty or not.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+This function will return if the \hyperlink{class_weighted_graph}{Weighted\+Graph} is empty or not. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!is\+Full@{is\+Full}}
+\index{is\+Full@{is\+Full}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{is\+Full() const }{isFull() const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Weighted\+Graph\+::is\+Full (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_weighted_graph_a22e56836e3967031a657cfa9ea5b9843}{}\label{class_weighted_graph_a22e56836e3967031a657cfa9ea5b9843}
+This function is the is\+Full function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+This function checks to see if size is equal to the max\+Size. If it is, the function returns true. Otherwise the function returns false.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns if the \hyperlink{class_weighted_graph}{Weighted\+Graph} is full or not.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+This function will return if the \hyperlink{class_weighted_graph}{Weighted\+Graph} is full or not. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!operator=@{operator=}}
+\index{operator=@{operator=}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{operator=(const Weighted\+Graph \&other)}{operator=(const WeightedGraph &other)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Weighted\+Graph} \& Weighted\+Graph\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Weighted\+Graph} \&}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_weighted_graph_aa5982a507e944af28e4749cdc06543c6}{}\label{class_weighted_graph_aa5982a507e944af28e4749cdc06543c6}
+This function is the overloaded assignment operator for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function will first check to make sure that the other object is not the same as this object. The function will then set the max\+Size equal to the other \hyperlink{class_weighted_graph}{Weighted\+Graph}\textquotesingle{}s max\+Size. The function will set the size equal to the other \hyperlink{class_weighted_graph}{Weighted\+Graph}\textquotesingle{}s size. The function will dynamically allocate memory for the vertex\+List to be equal to the max\+Size. The function will dynamically allocate memory for the adj\+Matrix and path\+Matrix equal to the max\+Size $\ast$ max\+Size. The function will then loop through the max\+Size of the array, acting like a 2D array and turning it into a 1D array for the adjacency matrix, and then set copy the data from the other arrays to this array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & \hyperlink{class_weighted_graph}{Weighted\+Graph} \& otherm which is the other object to be copied to make this object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns a pointer to this object.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{class_weighted_graph}{Weighted\+Graph} is an exact copy of the other object that was passed in. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!remove\+Edge@{remove\+Edge}}
+\index{remove\+Edge@{remove\+Edge}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{remove\+Edge(const string \&v1, const string \&v2)}{removeEdge(const string &v1, const string &v2)}}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::remove\+Edge (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{v1, }
+\item[{const string \&}]{v2}
+\end{DoxyParamCaption}
+) throw  logic\+\_\+error) }\hypertarget{class_weighted_graph_a1db455249fa7fedf70aa5683487a17df}{}\label{class_weighted_graph_a1db455249fa7fedf70aa5683487a17df}
+This function is the remove\+Edge function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function first checks creates local variables to hold the 2 indexs to insert the edge for and sets them to -\/10 (invalid number. The function then gets the 2 indexes by calling get\+Index with string v1 and string v2 passed as parameters. If both of the indexes are between 0 and (size $\ast$ size) the function sets the edge by calling set\+Edge with V1\+\_\+\+Index, V2\+\_\+\+Index and Infinite passed as the parameters. Other wise, the function throws a logic error saying the vertex was not found or bound error.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & string\& v1, which is the string to look for one of the vertex. \\
+\hline
+{\em const} & string\& v2, which is the string to look for the second first. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Valid vertices containing v1 and v2. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The function will remove the edge connecting between two vertices if they are found. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!remove\+Vertex@{remove\+Vertex}}
+\index{remove\+Vertex@{remove\+Vertex}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{remove\+Vertex(const string \&v)}{removeVertex(const string &v)}}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::remove\+Vertex (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{v}
+\end{DoxyParamCaption}
+) throw  logic\+\_\+error) }\hypertarget{class_weighted_graph_abaaa572a9b1a60ec3cd99d8db9d9590e}{}\label{class_weighted_graph_abaaa572a9b1a60ec3cd99d8db9d9590e}
+This function is the remove\+Vertex function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function looks to see if the label of a vertex is equal to the string v. If it is found, the function fixes the adjacency matrix by moving everything to the left by 1. The function then fixes the adjacency matrix by by moving everything up by 1. The function has to fix by left and up because it is imagined as a 2d array, but it is represented as a 1d array. The funtion then moves everything from the vertex\+List to the left by 1 from the point it is at to the size and then decrements the size, which will then force the function to return. If none of that occurs, the function throws a logic error saying that either the vertex was not found or there was a bound error.
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & string\& v1, which is the string to look for the vertex label. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+A valid vertex in the graph. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The function removs the vertex from the list and removes edges connected to it and fixes the adjacency matrix. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!retrieve\+Vertex@{retrieve\+Vertex}}
+\index{retrieve\+Vertex@{retrieve\+Vertex}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{retrieve\+Vertex(const string \&v, Vertex \&v\+Data) const }{retrieveVertex(const string &v, Vertex &vData) const }}]{\setlength{\rightskip}{0pt plus 5cm}bool Weighted\+Graph\+::retrieve\+Vertex (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{v, }
+\item[{{\bf Vertex} \&}]{v\+Data}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_weighted_graph_a3afabc2236c99dac950f5161f715f114}{}\label{class_weighted_graph_a3afabc2236c99dac950f5161f715f114}
+This function is the retrieve\+Vertex function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class.
+
+The function first declares a local bool variable called to\+\_\+return and sets it as false. The function then iterates through the entire size of the vertex\+List and continues until it finds the label that is equal to the string v. The function sets v\+Data to be equal to the vertex that was found to be equal to the label of string v. The function returns the variable to\+\_\+return;
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & string\& v, which is the label to look for in the vertices. \\
+\hline
+{\em Vertex\&} & v\+Data, which holds the value of the vertex\textquotesingle{}s data that was found. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function returns the variable to\+\_\+return indicating true of false if the vertex was found and retrieved.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+This function returns the variable to\+\_\+return indicating true of false if the vertex was found and retrieved and then sets v\+Data equal to the vertex that was found. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!set\+Edge@{set\+Edge}}
+\index{set\+Edge@{set\+Edge}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{set\+Edge(int row, int col, int wt)}{setEdge(int row, int col, int wt)}}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::set\+Edge (
+\begin{DoxyParamCaption}
+\item[{int}]{row, }
+\item[{int}]{col, }
+\item[{int}]{wt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_weighted_graph_aca51b1a746202621345709290a0ddd98}{}\label{class_weighted_graph_aca51b1a746202621345709290a0ddd98}
+This function is the set\+Edge for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+The function makes sure that row and size are within the max\+Size of the array. it it is, the function then sets the edge for the row and col. Sine we have a 1d array mapped as a 2d array, we have to set the edge weight for both index in the adjacency Matrix.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & row, which is the row of the edge to set for \\
+\hline
+{\em int} & col, which is the col of the edge to set for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+sets the edge of a given row and col by setting the edge weight for the index in the adjacency Matrix. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!set\+Path@{set\+Path}}
+\index{set\+Path@{set\+Path}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{set\+Path(int row, int col, int wt)}{setPath(int row, int col, int wt)}}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::set\+Path (
+\begin{DoxyParamCaption}
+\item[{int}]{row, }
+\item[{int}]{col, }
+\item[{int}]{wt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_weighted_graph_a7872c78e6db2c55fc064b121303bb9d4}{}\label{class_weighted_graph_a7872c78e6db2c55fc064b121303bb9d4}
+This function is the set\+Path for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+The function makes sure that row and size are within the max\+Size of the array. it it is, the function then sets the path for the row and col. Sine we have a 1d array mapped as a 2d array, we have to set the path for both index in the Path Matrix.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & row, which is the row of the path to set for \\
+\hline
+{\em int} & col, which is the col of the path to set for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+sets the path of a given row and col by setting the path for the index in the adjacency Matrix. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!show\+Shortest\+Paths@{show\+Shortest\+Paths}}
+\index{show\+Shortest\+Paths@{show\+Shortest\+Paths}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{show\+Shortest\+Paths()}{showShortestPaths()}}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::show\+Shortest\+Paths (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_weighted_graph_a8e6ea9adc87345052786eec67a5f9164}{}\label{class_weighted_graph_a8e6ea9adc87345052786eec67a5f9164}
+This function is the show\+Shortest\+Path function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+We use Floyd\textquotesingle{}s algorithm to make sure that a path from vertex k to vertex j and there exists a path from vertex j to vertex l and the sum of entries (k,j) abd (j,l) is less than entry (k,l) in the path matrix. Then we replace entry (k,l)with the sum of entries (k,j) and (j,l) We make sure that the paths exist at first, and then we check to see that Floyd\textquotesingle{}s algorhtm is true, and if it is, we set the Path to be the smallest path.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The Path Matrix is printed just like shown above in the show\+Structure function for the Edge and Matrix, as that one was given and i modeled it to match that. 
+\end{DoxyPostcond}
+\index{Weighted\+Graph@{Weighted\+Graph}!show\+Structure@{show\+Structure}}
+\index{show\+Structure@{show\+Structure}!Weighted\+Graph@{Weighted\+Graph}}
+\paragraph[{\texorpdfstring{show\+Structure() const }{showStructure() const }}]{\setlength{\rightskip}{0pt plus 5cm}void Weighted\+Graph\+::show\+Structure (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_weighted_graph_ad7f20a989073ea5401d504d944182347}{}\label{class_weighted_graph_ad7f20a989073ea5401d504d944182347}
+This function is the show\+Structure function for the \hyperlink{class_weighted_graph}{Weighted\+Graph} class
+
+Outputs the vertex\+List and adjacency Matrix of the \hyperlink{class_weighted_graph}{Weighted\+Graph} will be printed. If the size is 0, the function will just print out empty graph.
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function does not return anything.
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+none 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The vertex\+List and adjacency Matrix of the \hyperlink{class_weighted_graph}{Weighted\+Graph} will be printed. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Weighted\+Graph.\+h\item 
+Weighted\+Graph2.\+h\item 
+show12.\+cpp\item 
+\hyperlink{_weighted_graph_8cpp}{Weighted\+Graph.\+cpp}\end{DoxyCompactItemize}
